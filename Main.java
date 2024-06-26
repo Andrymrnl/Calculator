@@ -36,7 +36,8 @@ public class Main {
 
         if (CheckNumber.CheckNumber1(a[0]) == rr && CheckNumber.CheckNumber2(a[2]) == !rr ||
                 CheckNumber.CheckNumber1(a[0]) == !rr && CheckNumber.CheckNumber2(a[2]) == rr) {
-            throw new ArithmeticException("//т.к. используются сразу две системы исчисления");
+            throw new ArithmeticException("//т.к. используются сразу две системы исчисления / вы вышли за рамки " +
+                    "доступных чисел на вход");
         }
 
 
